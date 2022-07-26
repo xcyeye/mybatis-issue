@@ -6,11 +6,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class Demo2ApplicationTests {
-    //@Autowired
-    //private LoginInfoMapper mapper;
+    @Autowired
+    private LoginInfoMapper mapper;
     @Test
     void contextLoads() {
-        //System.out.println(mapper.delete());
+        System.out.println(mapper.delete());
     }
 
 }
