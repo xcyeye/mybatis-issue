@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo2.LoginInfoMapper">
+
+<delete id="delete">
+    delete from au_login_info WHERE uid=1551835125518573568;
+    </delete>
+</mapper>
